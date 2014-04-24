@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Current GPS Location</string><string name="acquiring_signal">Поиск местоположения</string>
+    
+    <string name="send_button">Отправить местоположение</string><string name="location_lost">Ваше местоположение не определено.</string><string name="share_location_subject">Мое текущее местоположение</string>
+	
+	<string name="share_location_body">В настоящий момент я нахожусь здесь: </string>
+	
+	<string name="share_title">Расшарить местоположения: </string>
+	<string name="no_way_to_share">Нет приложений в которые можно расшарить ваше местоположение</string>
+	<string name="menu_about">О нас</string>
+    <string name="menu_map_mode">Режим карты</string>
+    <string name="menu_satellite_mode">Режим спутника</string>
+    <string name="menu_preferences">Настройки</string>
+    <string name="close_button">Закрыть</string>
+    <string name="preferences_activity">Настройки Current GPS Location</string>
+    <string name="message_subject_preference">Тема по умолчанию</string>
+    <string name="message_subject_preference_summary">Тема для писем либо сообщений</string>
+    <string name="message_body_preference">Текст по умолчанию</string>
+    <string name="message_body_preference_summary">Текст который будет написан до ссылки</string>
+    <string name="menu_recenter">Отцентровать карту</string>
+    <string name="about_cbsb">CBSB development</string>
+    <string name="our_site">http://cbsbdev.com</string>
+    <color name="green">#82c300</color>
+    <string name="about">О нас</string>
+    
+<string name="admob_publisher_id">a1519deeb99ce88</string>
+</resources>

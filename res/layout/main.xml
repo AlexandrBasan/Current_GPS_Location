@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:id="@+id/acquiring_signal_layout">
+
+        <ProgressBar
+            android:id="@+id/ProgressBar01"
+            style="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/acquiring_signal_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="@string/acquiring_signal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/green" />
+
+    </LinearLayout>
+    <!-- Debug: 0SKImB9RzGo3Wo08Xe-F6nHvWwk_9bqzSVFHJNg -->
+    <!-- Real: 0SKImB9RzGo3BQUdxJRt-S380AF_Yhabkqw6PWw -->
+
+    <com.google.android.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/MapView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:apiKey="0oR0G95fEqsQy8FGrgFXeZ4U3NnHNmRZUbPh_8A"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/SendButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/send_button"
+        android:visibility="visible" />
+
+</LinearLayout>
